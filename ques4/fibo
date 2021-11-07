@@ -1,0 +1,19 @@
+#!/bin/bash
+first=0
+second=1
+third=1
+echo -n "How many terms want to be generated?  "
+read term
+
+fib=$((second+third))
+echo $second
+echo $third
+echo $fub
+
+for ((i=1; i<term; i++))
+do
+  third=$((fib+third))
+  echo $third
+  fib=$((third+fib))
+  echo $fib
+done

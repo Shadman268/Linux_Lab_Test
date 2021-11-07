@@ -1,0 +1,17 @@
+echo “Enter number”
+read reply
+if [ $reply -eq 1 ]
+then
+./linux
+elif [ $reply -eq 2]
+then
+./google
+elif [ $reply -eq 3]
+then
+./microsoft
+elif [ $reply -eq 4]
+/.facebook
+
+else
+./amazon
+fi
